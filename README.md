@@ -24,11 +24,8 @@ Download ```https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases
 
 Comment out compress workload, comment in bubble workload in the python scripts
 
-
 ```<path_to_gem5.opt> -d riscv_bubble_results riscv_multilevel.py```
 
-
 ```<path_to_gem5.opt> -d x86_bubble_results multilevel_intel.py```
-
 
 Run ```compile_results.sh``` to generate a full_stats.dat containing relevant stats
