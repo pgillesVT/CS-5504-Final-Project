@@ -1,5 +1,5 @@
-Instructions for generating project results:
-Download https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v15.2.0-1/xpack-riscv-none-elf-gcc-15.2.0-1-linux-x64.tar.gz and extract in ~/tools/
+# Instructions for generating project results:
+```Download https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v15.2.0-1/xpack-riscv-none-elf-gcc-15.2.0-1-linux-x64.tar.gz and extract in ~/tools/```
 export PATH=$HOME/tools/xpack-riscv-none-elf-gcc-15.2.0-1/bin:$PATH
 riscv-none-elf-gcc -march=rv64gc -mabi=lp64d -O2 -ggdb3 -std=c99 -static libcompress.c -o riscv_compress
 gcc -O2 -ggdb3 -std=c99 -static libcompress.c -o x86_compress
