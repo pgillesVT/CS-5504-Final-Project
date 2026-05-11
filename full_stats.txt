@@ -1,0 +1,191 @@
+simSeconds
+   bubble
+      x86                 0.000415
+      riscv               0.000097
+   compress
+      x86                 0.000300
+      riscv               0.000010
+simInsts
+   bubble
+      x86                 197359
+      riscv               50338
+   compress
+      x86                 135923
+      riscv               4263
+simOps
+   bubble
+      x86                 346492
+      riscv               50338
+   compress
+      x86                 242953
+      riscv               4263
+system.cpu.cpi
+   bubble
+      x86                 1.051308
+      riscv               0.968433
+   compress
+      x86                 1.102507
+      riscv               1.210415
+system.cpu.squashedInstsIssued
+   bubble
+      x86                 50
+      riscv               9
+   compress
+      x86                 50
+      riscv               4
+system.cpu.squashedInstsExamined
+   bubble
+      x86                 19610
+      riscv               15270
+   compress
+      x86                 16734
+      riscv               569
+system.cpu.numIssuedDist::mean
+   bubble
+      x86                 1.897687
+      riscv               1.394765
+   compress
+      x86                 1.874194
+      riscv               1.112869
+system.cpu.dcache.overallMissRate::cpu.data
+   bubble
+      x86                 0.061556
+      riscv               0.027099
+   compress
+      x86                 0.108706
+      riscv               0.374153
+system.cpu.icache.overallMissRate::total
+   bubble
+      x86                 0.025817
+      riscv               0.171953
+   compress
+      x86                 0.032892
+      riscv               0.098739
+system.l2cache.overallMissRate::total
+   bubble
+      x86                 0.968522
+      riscv               1
+   compress
+      x86                 0.980711
+      riscv               1
+system.l2cache.overallMissRate::total
+   bubble
+      x86                 0.968522
+      riscv               1
+   compress
+      x86                 0.980711
+      riscv               1
+system.l2cache.overallMissRate::total
+   bubble
+      x86                 0.968522
+      riscv               1
+   compress
+      x86                 0.980711
+      riscv               1
+system.cpu.bac.branchMisspredict
+   bubble
+      x86                 1170
+      riscv               580
+   compress
+      x86                 920
+      riscv               96
+system.cpu.bac.noBranchMisspredict
+   bubble
+      x86                 62
+      riscv               23
+   compress
+      x86                 64
+      riscv               3
+system.cpu.bac.branches
+   bubble
+      x86                 52164
+      riscv               25675
+   compress
+      x86                 35935
+      riscv               982
+system.cpu.rename.ROBFullEvents
+   bubble
+      x86                 98
+      riscv               21
+   compress
+      x86                 187
+      riscv               system.cpu.rename.IQFullEvents
+   bubble
+      x86                 318
+      riscv               17672
+   compress
+      x86                 334
+      riscv               8
+system.cpu.rename.LQFullEvents
+   bubble
+      x86                       riscv               4
+   compress
+      x86                       riscv               7
+system.cpu.rename.LQFullEvents
+   bubble
+      x86                       riscv               4
+   compress
+      x86                       riscv               7
+system.cpu.rename.SQFullEvents
+   bubble
+      x86                 4078
+      riscv               1886
+   compress
+      x86                 6857
+      riscv               1174
+system.mem_ctrl.dram.rank0.averagePower
+   bubble
+      x86                 542.692039
+      riscv               502.807859
+   compress
+      x86                 555.708285
+      riscv               604.727660
+system.mem_ctrl.dram.rank0.totalEnergy
+   bubble
+      x86                 225199830
+      riscv               49021755
+   compress
+      x86                 166551330
+      riscv               6239580
+system.mem_ctrl.dram.rank1.totalEnergy
+   bubble
+      x86                 204959130
+      riscv               45027000
+   compress
+      x86                 153155910
+      riscv               4594770
+system.cpu.issuedInstType_0::MemRead
+   bubble
+      x86                 30645
+      riscv               12681
+   compress
+      x86                 20154
+      riscv               606
+system.cpu.issuedInstType_0::MemWrite
+   bubble
+      x86                 20885
+      riscv               12508
+   compress
+      x86                 11244
+      riscv               1655
+system.cpu.issuedInstType_0::No_OpClass
+   bubble
+      x86                 463
+      riscv               10
+   compress
+      x86                 374
+      riscv               1
+system.cpu.issuedInstType_0::IntAlu
+   bubble
+      x86                 308366
+      riscv               36503
+   compress
+      x86                 222602
+      riscv               2451
+system.cpu.issuedInstType_0::IntMult
+   bubble
+      x86                 6
+      riscv               1
+   compress
+      x86                 4
+      riscv               0
